@@ -58,6 +58,13 @@ Below are the list of features along with the API Endpoints.
 | User Login | /api/v1/login |
 | Cart | /api/v1/cart |
 
+Below are the dummy users.
+
+| EmailAddress | Password |
+| ------ | ------ |
+| nitesh@gmail.com | admin |
+| kartik@gmail.com | admin |
+
 > API Documentation and useses
 
 http://localhost:3000/api/v1/documentation
