@@ -1,0 +1,14 @@
+[
+    {
+        "_id": "5ef7305a7fd0172e94d5d070",
+        "name": "Nitesh Kaushik",
+        "email_address": "nitesh@gmail.com",
+        "password": "$2b$10$zBgNaLQ/40GOJCbXY95maO3sySAuwueX34PUldIA87ufIUV/.sFt6"
+    },
+    {
+        "_id": "5ef7305a7fd0172e94d5d069",
+        "name": "Kartik",
+        "email_address": "kartik@gmail.com",
+        "password": "$2b$10$zBgNaLQ/40GOJCbXY95maO3sySAuwueX34PUldIA87ufIUV/.sFt6"
+    }
+]

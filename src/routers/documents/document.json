@@ -1,0 +1,94 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "---\n Successive Shopping Cart - All APIs information",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/api/v1/categories": {
+      "get": {
+        "summary": "Get All categories",
+        "responses": {
+          "200": { "description": "success" }
+        }
+      }
+    },
+    "/api/v1/products": {
+      "get": {
+        "summary": "Get All products",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": { "description": "success" }
+        }
+      }
+    },
+    "/api/v1/login": {
+      "post": {
+        "summary": "User Login with email address and password",
+        "security": [
+          {
+            "basicAuth": []
+          }
+        ],
+        "responses": {
+          "200": { "description": "success" }
+        }
+      }
+    },
+    "/api/v1/cart": {
+      "post": {
+        "summary": "Add product to cart",
+        "parameters": [
+          {
+            "name": "product",
+            "in": "body",
+            "type": "string",
+            "Content-type": "string"
+          },
+          {
+            "name": "quantity",
+            "in": "body",
+            "type": "integer",
+            "minimum": 1,
+            "default": 1
+          }
+        ],
+        "security": [
+          {
+            "SESSION-ID": []
+          }
+        ],
+        "responses": {
+          "200": { "description": "success" }
+        }
+      },
+      "get": {
+        "summary": "Get cart info for a specific user",
+        "security": [
+          {
+            "SESSION-ID": []
+          }
+        ],
+        "responses": {
+          "200": { "description": "success" }
+        }
+      }
+    }
+  },
+  "securityDefinitions": {
+    "basicAuth": {
+      "type": "basic"
+    },
+    "SESSION-ID": {
+      "type": "apiKey",
+      "name": "SESSION-ID",
+      "in": "header"
+    }
+  }
+}

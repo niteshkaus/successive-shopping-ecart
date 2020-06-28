@@ -1,0 +1,22 @@
+[
+    {
+        "_id" : "5ef72ef0e8effd40e0adb57f",
+        "name": "Shirts",
+        "type": "Fashion"
+    },
+    {
+        "_id" : "5ef72ef0e8effd40e0adb580",
+        "name": "Jeans",
+        "type": "Fashion"
+    },
+    {
+        "_id" : "5ef72ef0e8effd40e0adb581",
+        "name": "TV",
+        "type": "Electronics"
+    },
+    {
+        "_id" : "5ef72ef0e8effd40e0adb582",
+        "name": "Fridge",
+        "type": "Electronics"
+    }
+]

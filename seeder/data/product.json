@@ -1,0 +1,50 @@
+[
+    {
+        "_id" : "5ef732d76ef3705c6c713e4b",
+        "name": "T-Shirt",
+        "category": "5ef72ef0e8effd40e0adb57f",
+        "description": "This is a fashion product",
+        "price": "499.99",
+        "make": 2019
+    },
+    {
+        "_id" : "5ef732d76ef3705c6c713e4c",
+        "name": "Shirt",
+        "category": "5ef72ef0e8effd40e0adb57f",
+        "description": "This is a fashion clothing product for boys",
+        "price": "899.59",
+        "make": 2020
+    },
+    {
+        "_id" : "5ef732d76ef3705c6c713e4d",
+        "name": "Sony-bravia - 32inch",
+        "category": "5ef72ef0e8effd40e0adb581",
+        "description": "Sony bravia full hd 32 inch television",
+        "price": "35000.80",
+        "make": 2020
+    },
+    {
+        "_id" : "5ef732d76ef3705c6c713e4e",
+        "name": "Samsung televison - 32inch",
+        "category": "5ef72ef0e8effd40e0adb581",
+        "description": "Samsung LED full hd 32 inch",
+        "price": "38000.80",
+        "make": 2020
+    },
+    {
+        "_id" : "5ef732d76ef3705c6c713e4f",
+        "name": "Whirlpool Refrigerator",
+        "category": "5ef72ef0e8effd40e0adb582",
+        "description": "Whirlpool fridge 220ltr - double door",
+        "price": "40000.50",
+        "make": 2019
+    },
+    {
+        "_id" : "5ef732d76ef3705c6c713e50",
+        "name": "Samsung Refrigerator - Single Door",
+        "category": "5ef72ef0e8effd40e0adb582",
+        "description": "Samsung fridge - 150ltr - single door",
+        "price": "20000.00",
+        "make": 2017
+    }
+]
