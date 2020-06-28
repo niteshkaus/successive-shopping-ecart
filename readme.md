@@ -55,7 +55,7 @@ Below are the list of features along with the API Endpoints.
 | ------ | ------ |
 | Product | /api/v1/products |
 | Category | /api/v1/categories |
-| Session | /api/v1/session |
+| User Login | /api/v1/login |
 | Cart | /api/v1/cart |
 
 > API Documentation and useses
